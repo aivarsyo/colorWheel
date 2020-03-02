@@ -1,0 +1,28 @@
+:root{
+    --colorSquare: pink;
+}
+
+#squares{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.colorSquare{
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--colorSquare);
+    border: 1px solid;
+}
+
+#texts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.colorsText{
+    display: flex;
+    flex-direction: column;
+}
+
